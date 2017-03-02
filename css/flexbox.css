@@ -1,0 +1,33 @@
+/***********************************
+Flexbox
+***********************************/
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+
+/*this changes the lay of the images on the index.html page, I currently have them to flex and aligh to the center*/
+#gallery{
+    display: flex;
+    align-items:center; 
+}
+
+/*need to figure out why #gallery isn't selecting ALL of my photos, even in the album.. I want to be able to center all of those pics when looking at a specific albums*/
+
+/***********************************
+Base Styles
+***********************************/
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    flex: 1;
+}
